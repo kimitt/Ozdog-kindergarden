@@ -41,7 +41,22 @@
   margin-top: 30px;
   background-color: var(--font);
   color: var(--white);
-  border-radius: 10px;
+  border-radius: 30px;
+  border: none;
+}
+
+.admin-box {
+  display: flex;
+  justify-content: flex-end;
+}
+.admin-btn {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  padding-top: 25px;
+  color: var(--white);
+  background-color: darkslategray;
+  border-radius: 50%;
   border: none;
 }
 
